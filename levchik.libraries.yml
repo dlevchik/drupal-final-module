@@ -1,0 +1,5 @@
+table-styling:
+  version: VERSION
+  css:
+    component:
+      css/table.css: {}

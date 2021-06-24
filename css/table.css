@@ -1,0 +1,14 @@
+table tbody tr td{
+  padding: 0;
+  width: 30px;
+}
+
+table td input,
+table td .form-item{
+  width: 100%;
+  height: auto;
+}
+
+table td span.result {
+  text-align: center;
+}

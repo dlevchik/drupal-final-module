@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains levchik.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function levchik_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the levchik module.
+    case 'help.page.levchik':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Quarter table module') . '</p>';
+      return $output;
+
+    default:
+  }
+}

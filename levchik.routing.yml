@@ -1,0 +1,8 @@
+
+levchik.default_controller_build:
+  path: '/levchik/table'
+  defaults:
+    _form: '\Drupal\levchik\Form\TableForm'
+    _title: 'Quarter and year table.'
+  requirements:
+    _permission: 'access content'
